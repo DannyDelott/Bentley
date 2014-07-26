@@ -2,7 +2,7 @@
 
 Bentley is a minimal and responsive [Ghost](http://ghost.org) theme focusing on your content. With smooth and slick javascripts transitions, the experience is elegant and simple - just like the Ghost blogging platform. [See](http://alson.caffein8.com) for yourself.
 
-Expect updates - this theme is maturing along with Ghost. Feel free to [add suggested features](https://bitbucket.org/Caffein8/bentley/issues?status=new&status=open).
+Expect updates - this theme is maturing along with Ghost. Feel free to [add suggested features](https://bitbucket.org/Caffein8/bentley/issues/new).
 
 ## How to install
 
