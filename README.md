@@ -8,7 +8,7 @@ Expect updates - this theme is maturing along with Ghost. Feel free to [add sugg
 
 1. Navigate to your Ghost theme directory ghost/content/themes
 
-2. Clone theme repo using below command ```git clone https://Caffein8@bitbucket.org/Caffein8/bentley.git```
+2. Clone theme repo using below command ```git clone https://bitbucket.org/Caffein8/bentley.git```
 
 3. Restart ghost and log into your dashboard
 
