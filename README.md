@@ -2,13 +2,13 @@
 
 Bentley is a minimal and responsive [Ghost](http://ghost.org) theme focusing on your content. With smooth and slick javascripts transitions, the experience is elegant and simple - just like the Ghost blogging platform. [See](http://alson.caffein8.com) for yourself.
 
-Expect updates - this theme is maturing along with Ghost. Feel free to [add suggested features](https://bitbucket.org/Caffein8/bentley/issues?status=new&status=open).
+Expect updates - this theme is maturing along with Ghost. Feel free to [add suggested features](https://bitbucket.org/Caffein8/bentley/issues/new).
 
 ## How to install
 
 1. Navigate to your Ghost theme directory ghost/content/themes
 
-2. Clone theme repo using below command ```git clone https://Caffein8@bitbucket.org/Caffein8/bentley.git```
+2. Clone theme repo using below command ```git clone https://bitbucket.org/Caffein8/bentley.git```
 
 3. Restart ghost and log into your dashboard
 
