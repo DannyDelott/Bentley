@@ -59,7 +59,7 @@ $(document).ready(function() {
     //Slow scroll of .art-header-inner scroll and fade it out
     $artHeaderInner.css({
       'margin-top' : -(windowScroll/3)+"px",
-      'opacity' : 1-(windowScroll/550)
+      'opacity' : 1-(windowScroll/250)
     });
 
     //Slowly parallax the background of .art-header
