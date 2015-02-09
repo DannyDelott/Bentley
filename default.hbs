@@ -51,9 +51,6 @@
 {{/if}}
 
 {{ghost_head}}
-<script>
-  (function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-42439076-3","auto");ga("send","pageview")
-</script>
 </head>
 
 <body class="{{body_class}}">
@@ -75,15 +72,6 @@
 {{! Everything else gets inserted here }}
 {{{body}}}
 
-<footer class="footer">
-    <div class="back-to-top"><a href="">Back to top</a></div>
-    <!-- <div class="footer-nav"><p></p></div> -->
-    <div class="psi">&Psi;</div>
-    <aside class="offsite-links">
-        <a class="twitter-link" href="https://twitter.com/DannyDelott">Twitter</a> 
-    </aside>
-</footer>
-
 </div> {{! End of wrapper }}
 
 {{! Scripts }}
@@ -91,15 +79,8 @@
 <script type="text/javascript" src="{{ asset 'js/fittext.js' }}"></script>
 <script type="text/javascript" src="{{ asset 'js/app.js' }}"></script>
 <script type="text/javascript" src="{{ asset 'js/respond.min.js' }}"></script>
-<script type="text/javascript">
-  var ga_ua = '{{! TODO: ADD GOOGLE ANALYTICS UA HERE }}';
-
-  (function(g,h,o,s,t,z){g.GoogleAnalyticsObject=s;g[s]||(g[s]=
-      function(){(g[s].q=g[s].q||[]).push(arguments)});g[s].s=+new Date;
-      t=h.createElement(o);z=h.getElementsByTagName(o)[0];
-      t.src='//www.google-analytics.com/analytics.js';
-      z.parentNode.insertBefore(t,z)}(window,document,'script','ga'));
-      ga('create',ga_ua);ga('send','pageview');
+<script>
+  (function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-42439076-3","auto");ga("send","pageview")
 </script>
 
 {{! Ghost outputs important scripts and data with this tag }}
