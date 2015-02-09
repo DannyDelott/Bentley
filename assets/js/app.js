@@ -24,7 +24,7 @@ $(document).ready(function() {
   var windowScroll;
 
   // Apply Fittext to article titles to make it scale responsively in a smooth fashion
-  $artTitle.fitText(1, { minFontSize: '34px' });
+  $artTitle.fitText(1, { minFontSize: '24px', maxFontSize: '81px' });
 
   // Identify if visitor has a large enough viewport for parallaxing title
   function isLargeViewport() {
@@ -87,12 +87,12 @@ $(document).ready(function() {
 		$('.art-header').css('background-size','100%');
 		
 		// Change color scheme to white
-		$('#logo h1').css('color','white');
+	/*	$('#logo h1').css('color','white');
 		$('.art-title').css('color','white');
 		$('.art-subtitle').css('color','white');
 		$('.art-time').css('color','white');
-		$('.nav-primary li a').css('color','white');
-		
+		$('.nav-primary li').css('color','white');
+	*/	
 		// Add Text Shadows
 		$('.art-title').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
 		$('.art-subtitle').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
