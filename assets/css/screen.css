@@ -172,19 +172,18 @@ a:hover {
 #logo h1,
 .nav-primary li,
 .nav-primary li a {
-  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
+  font-family: "Roboto Slab", "proxima-nova", "helvetica neue", "helvetica", sans-serif;
   font-weight: 700;
   font-size: 13px;
   line-height: 30px;
   color: #000;
-  text-transform: uppercase;
 }
 
 #logo h1 {
   height: 30px;
   margin-left: 0px;
   letter-spacing: 1px;
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 30px;
 }
 
