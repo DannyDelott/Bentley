@@ -38,7 +38,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
   font-weight: normal;
-  text-transform: uppercase;
   font-weight: 700;
   color: #000;
   text-rendering: optimizeLegibility;
@@ -242,7 +241,6 @@ div.cover > img {
 .art-title,
 .art-subtitle {
   text-align: center;
-  text-transform: uppercase;
 }
 .art-time {
   font-size: 14px;
@@ -250,7 +248,7 @@ div.cover > img {
   letter-spacing: 4px;
 }
 .art-title {
-  font-size: 100px;
+  font-size: 81px;
   line-height: .9;
   letter-spacing: -2px;
   width: 100%;

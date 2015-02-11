@@ -12,16 +12,14 @@
 {{#if post}}
 {{#post}}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="{{! TODO: ADD TWITTER ID HERE }}">
+<meta name="twitter:site" content="DannyDelott">
 <meta name="twitter:title" content="{{title}}">
 <meta name="twitter:description" content="{{excerpt}}">
 <meta name="twitter:creator" content="{{author.name}}">
-<meta name="twitter:image:src" content="{{! TODO: ADD GRAVATAR URL HERE }}">
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{@blog.title}}">
 <meta property="og:description" content="{{excerpt}}">
-<meta property="og:image" content="{{! TODO: ADD GRAVATAR URL HERE }}">
 <meta property="og:site_name" content="{{@blog.title}}">
 {{/post}}
 {{else}}
@@ -30,12 +28,10 @@
 <meta name="twitter:title" content="{{@blog.title}}">
 <meta name="twitter:description" content="{{@blog.description}}">
 <meta name="twitter:creator" content="{{@blog.title}}">
-<meta name="twitter:image:src" content="{{! TODO: ADD GRAVATAR URL HERE }}">
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{@blog.title}}">
 <meta property="og:description" content="{{@blog.description}}">
-<meta property="og:image" content="{{! TODO: ADD GRAVATAR URL HERE }}">
 <meta property="og:site_name" content="{{@blog.title}}">
 {{/if}}
 
@@ -69,24 +65,12 @@
     <a style="border:none;" id="logo" href="{{@blog.url}}"><h1>{{@blog.title}}</h1></a>
     <ul class="nav-primary">
         {{! TODO: Add URLs here }}
-        <!-- <li><a href="{{@blog.url}}">Home</a></li> -->
+        <li>{{@blog.description}}</li>
     </ul>
 </nav>
 
 {{! Everything else gets inserted here }}
 {{{body}}}
-
-<footer class="footer">
-    <div class="back-to-top"><a href="">Back to top</a></div>
-    <!-- <div class="footer-nav"><p></p></div> -->
-    <div class="psi">&Psi;</div>
-    <aside class="offsite-links">
-        <a class="twitter-link" href="{{! TODO: ADD TWITTER URL HERE }}">Twitter</a> /
-    		<a class="instagram-link" href="{{! TODO: ADD INSTAGRAM URL HERE }}">Instagram</a> /
-        <a class="rss-link" href="{{ @blog.url }}/rss">RSS</a>
-        
-    </aside>
-</footer>
 
 </div> {{! End of wrapper }}
 
@@ -95,15 +79,8 @@
 <script type="text/javascript" src="{{ asset 'js/fittext.js' }}"></script>
 <script type="text/javascript" src="{{ asset 'js/app.js' }}"></script>
 <script type="text/javascript" src="{{ asset 'js/respond.min.js' }}"></script>
-<script type="text/javascript">
-  var ga_ua = '{{! TODO: ADD GOOGLE ANALYTICS UA HERE }}';
-
-  (function(g,h,o,s,t,z){g.GoogleAnalyticsObject=s;g[s]||(g[s]=
-      function(){(g[s].q=g[s].q||[]).push(arguments)});g[s].s=+new Date;
-      t=h.createElement(o);z=h.getElementsByTagName(o)[0];
-      t.src='//www.google-analytics.com/analytics.js';
-      z.parentNode.insertBefore(t,z)}(window,document,'script','ga'));
-      ga('create',ga_ua);ga('send','pageview');
+<script>
+  (function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-42439076-3","auto");ga("send","pageview")
 </script>
 
 {{! Ghost outputs important scripts and data with this tag }}
