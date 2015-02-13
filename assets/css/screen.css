@@ -36,8 +36,8 @@ body {
 /* Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
-  font-weight: normal;
+//  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
   color: #000;
   text-rendering: optimizeLegibility;
@@ -70,6 +70,7 @@ h5 {
 
 p {
   margin: 0 0 28px 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 strong {
@@ -105,14 +106,11 @@ header#teaser h1 {
 /* Links
 ================================================== */
 a {
-  color: #F40034;
+  color: #0645AD;
   text-decoration: none;
   -webkit-transition: color .2s ease-in-out;
      -moz-transition: color .2s ease-in-out;
           transition: color .2s ease-in-out;
-}
-a:hover {
-  color: #F40034;
 }
 
 /*  Layout
@@ -172,8 +170,7 @@ a:hover {
 #logo h1,
 .nav-primary li,
 .nav-primary li a {
-  font-family: "Roboto Slab", "proxima-nova", "helvetica neue", "helvetica", sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   font-size: 13px;
   line-height: 30px;
   color: #000;
@@ -183,12 +180,12 @@ a:hover {
   height: 30px;
   margin-left: 0px;
   letter-spacing: 1px;
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
 }
 
 #logo h1 span{
-  color: #F40034 !important;
+  color: #0645AD !important;
 }
 
 .nav li:first-child {
@@ -243,6 +240,7 @@ div.cover > img {
 }
 .art-time {
   font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.8;
   letter-spacing: 4px;
 }
@@ -288,14 +286,12 @@ div.cover > img {
   font-size: 21px;
   line-height: 1.5;
 }
-.art-body-inner a:hover {
-  border-bottom: 1px solid #F40034;
-  padding-bottom:2px;
-}
 .art-body-inner ul,
 .art-body-inner ol { /* For lists in the article body */
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 26px;
 }
+
 .art-body-inner ul li {
   list-style: disc;
 }
@@ -395,7 +391,7 @@ div.cover > img {
 }
 .art-list-title {
   font-size: 26px;
-  line-height: 26px;
+  line-height: 35px;
   font-weight: 700;
 }
 .art-list-item-title-and-time {
@@ -405,6 +401,7 @@ div.cover > img {
 }
 .art-list-time {
   font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -414,7 +411,7 @@ div.cover > img {
   color: #000;
 }
 .art-list-title a:hover {
-  color: #F40034;
+  color: #0645AD;
 }
 .art-list-item p {
   width: 65%;
