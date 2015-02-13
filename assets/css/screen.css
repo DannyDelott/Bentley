@@ -246,7 +246,7 @@ div.cover > img {
 }
 .art-title {
   font-size: 81px;
-  line-height: 1;
+  line-height: 100px;
   letter-spacing: -2px;
   width: 100%;
 }
