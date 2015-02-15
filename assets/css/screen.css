@@ -70,7 +70,7 @@ h5 {
 
 p {
   margin: 0 0 28px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Halant', serif;  
 }
 
 strong {
@@ -289,8 +289,9 @@ div.cover > img {
 }
 .art-body-inner ul,
 .art-body-inner ol { /* For lists in the article body */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Halant', serif;
   margin-bottom: 26px;
+  margin-left: 5%;
 }
 
 .art-body-inner ul li {
@@ -419,8 +420,8 @@ div.cover > img {
   float: left;
   margin-left: 5%;
   margin-bottom: 0;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 
