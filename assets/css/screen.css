@@ -179,9 +179,9 @@ a {
 #logo h1 {
   height: 30px;
   margin-left: 0px;
-  letter-spacing: 1px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  letter-spacing: -1px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 45px;
 }
 
 #logo h1 span{
