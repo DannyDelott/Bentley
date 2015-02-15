@@ -96,7 +96,6 @@ $(document).ready(function() {
 		// Add Text Shadows
 		$('.art-title').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
 		$('.art-subtitle').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
-		$('.art-time').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
 		
 	}
 	$postImage.remove();

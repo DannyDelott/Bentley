@@ -243,6 +243,7 @@ div.cover > img {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.8;
   letter-spacing: 4px;
+  text-transform: uppercase;
 }
 .art-title {
   font-size: 81px;
@@ -505,7 +506,7 @@ nav.pagination{
 .art-header.white {
   background-color: #111;
 }
-.art-header.white .art-time,
+.art-header.white,
 .art-header.white .art-title,
 .art-header.white .art-subtitle {
   color: #fff;
