@@ -678,12 +678,15 @@ padding: 0;
     margin-left: 10px;
   }
   .nav #logo h1 {
-    font-size: 16px;
+    font-size: 26px;
     letter-spacing: -1px;
   }
   .nav li a {
     font-size: 12px;
   }
+  .art-title {
+  line-height: 45px;
+}
   .art-header {
     padding-bottom: 50px;
   }
