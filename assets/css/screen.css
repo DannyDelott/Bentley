@@ -31,7 +31,9 @@ body {
   color: #333;
   background: #fff;
 }
-
+.lines {
+  width:100%;
+}
 
 /* Typography
 ================================================== */
@@ -295,6 +297,7 @@ div.cover > img {
 }
 
 .art-body-inner ul li {
+  margin-bottom:10px;
   list-style: disc;
 }
 
