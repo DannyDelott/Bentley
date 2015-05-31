@@ -34,6 +34,9 @@ body {
 .lines {
   width:100%;
 }
+.gist-file{
+  margin-bottom:28px !important;
+}
 
 /* Typography
 ================================================== */
