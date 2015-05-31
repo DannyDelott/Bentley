@@ -73,6 +73,7 @@ h5 {
 p {
   margin: 0 0 28px 0;
   font-family: 'Halant', serif;  
+  text-align: justified;
 }
 
 strong {
